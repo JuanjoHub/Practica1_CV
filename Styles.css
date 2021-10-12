@@ -1,0 +1,85 @@
+
+body{
+ background-image: url("Fondo.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+/*ID PARA EL ESTILO DE LA FOTO DE PERFIL*/
+#foto_perfil{
+    width:"90%";
+    margin-left:15%;
+    margin-right:10%;
+    margin-top: 10%;
+}
+
+
+
+/*ID PARA EL DIV QUE CONTIENE TODO EL BODY*/
+#divBody{
+    /*border:5px outset blue; */
+    display: flex;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}    
+
+
+/*ID PARA LA PARTE DE LA IZQUIERDA DEL CV QUE CORRESPONDE A LOS DATOS PERSONALES*/
+#divDatos{
+background-color: rgb(63, 61, 61);
+float:left;
+display:block;
+
+
+}
+/*ID PARA LA PARTE DE LA DERECHA QUE CORRESPONDE A LA EXPERIENCIA LABORAL*/
+#divExperiencia{
+/*border:5px outset red;*/
+background-color: rgb(252, 247, 247);
+display: block;
+width: 100%;
+
+    }
+
+
+.fuente_Letras{
+color:white;
+margin: 35px;
+    
+}
+
+.fuente_h2{
+
+    text-align: center;
+    color:powderblue;
+}
+
+.fuente_titulos{
+
+    margin: 35px;
+    text-align: left;
+    color:powderblue;
+}
+
+.clase_hr{
+
+    width:80%;
+    text-align:
+    left;
+    margin-left:35px
+}
+
+
+.listas{
+
+    margin:30px;
+    color:white;
+}
+.listas_experiencia{
+
+    margin:30px;
+    
+}
